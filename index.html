@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Rock-Paper-Scissor Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+ <body>
+    <header>
+        <h2>Rock Paper Scissors</h2>
+        <div class="logo">
+          <img id="l" src="img/logo.png" alt="logo" onclick="reloadThePage()"  style="height: 100px;width: auto; align-self: center;"> 
+        </div>
+        <div class="user">
+            <img src="img/man.png" alt="user" style="height: 65px;width: auto;align-self: center;">
+        </div>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="Computer-label" class="badge">Computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>Hello there, Let's play!</p>
+    </div>
+    <div class="choices">
+        <div class="choice">
+            <img id="p" src="img/paper.png" alt="Paper">
+        </div>
+        <div class="choice">
+            <img id="r" src="img/rock.png" alt="Rock">
+        </div>
+        <div class="choice">
+            <img id="s" src="img/scissors.png" alt="Scissors">
+        </div>
+    </div>
+    <p id="action-msg">Make your move</p>
+    <div class ="reset">
+        <button id="b" type="button" onclick="reloadThePage()">Reset the Score</button>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+ </body>
+</html>
