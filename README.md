@@ -1,6 +1,6 @@
 ## Rock-Paper-Scissor
 
- Made a basic Rock-Paper-Scissor game based on web.
+ Made a basic Rock-Paper-Scissor game.
  
  #### Features:
  
